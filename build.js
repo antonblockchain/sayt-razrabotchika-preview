@@ -286,7 +286,7 @@ const contactForm = (ctx, { id, source, compact = false }) => {
       </div>`;
   return `
   <div class="form-wrap" data-form-wrap>
-    <form class="form" id="${id}" action="${asset('/api/contact')}" method="post" novalidate data-form${DEMO ? ' data-demo' : ''}data-source="${esc(source)}" data-messages='${esc(JSON.stringify(f.errors))}'>
+    <form class="form" id="${id}" action="${asset('/api/contact')}" method="post" novalidate data-form${DEMO ? ' data-demo' : ''} data-source="${esc(source)}" data-messages='${esc(JSON.stringify(f.errors))}'>
       <div class="form__alert" role="alert" data-form-alert hidden></div>
       <div class="form__grid">
         ${field({ name: 'name', label: f.name, autocomplete: 'name', maxlength: 100 })}
