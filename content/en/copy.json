@@ -1,0 +1,415 @@
+{
+  "ui": {
+    "skipLink": "Skip to main content",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "cta": "Discuss a project",
+    "home": "Home",
+    "readCase": "Read the case",
+    "readArticle": "Read the article",
+    "allCases": "All case studies",
+    "allArticles": "All insights",
+    "placeholderBadge": "Placeholder content",
+    "placeholderNote": "This case is a neutral placeholder. Replace it with approved material before publication.",
+    "backToTop": "Back to top",
+    "nextStep": "Next step",
+    "minRead": "min read",
+    "ctaBandTitle": "Ready to discuss your task?",
+    "ctaBandText": "Tell us briefly what you want to build, integrate or improve. A short description is enough to start.",
+    "breadcrumbs": "Breadcrumbs"
+  },
+  "nav": [
+    { "route": "/expertise/", "label": "Expertise" },
+    { "route": "/industries/", "label": "Use cases" },
+    { "route": "/how-we-work/", "label": "How we work" },
+    { "route": "/case-studies/", "label": "Case studies" },
+    { "route": "/about/", "label": "About" },
+    { "route": "/insights/", "label": "Insights", "feature": "insights" },
+    { "route": "/contact/", "label": "Contact" }
+  ],
+  "footer": {
+    "about": "A software development company. We design and build digital platforms, applications and integrations for financial and payment organisations and other digital-first businesses.",
+    "disclaimer": "We are a technology company and do not provide payment, banking, e-money or other regulated financial services.",
+    "navTitle": "Company",
+    "contactTitle": "Contact",
+    "legalTitle": "Legal",
+    "legal": [
+      { "route": "/privacy-policy/", "label": "Privacy Policy" },
+      { "route": "/cookie-policy/", "label": "Cookie Policy" },
+      { "route": "/terms/", "label": "Terms of Use" }
+    ],
+    "cookieSettings": "Cookie settings",
+    "rights": "All rights reserved."
+  },
+  "cookie": {
+    "title": "Cookies on this website",
+    "text": "We use necessary cookies to run the site. With your permission we would also use analytics cookies to understand how the site is used.",
+    "accept": "Accept analytics",
+    "reject": "Necessary only",
+    "more": "Cookie Policy"
+  },
+  "form": {
+    "title": "Tell us about your project",
+    "name": "Name",
+    "email": "Work email",
+    "company": "Company",
+    "phone": "Phone",
+    "optional": "optional",
+    "type": "Type of request",
+    "types": [
+      { "value": "new-project", "label": "New project" },
+      { "value": "integration", "label": "Integration" },
+      { "value": "support", "label": "Support" },
+      { "value": "partnership", "label": "Partnership" },
+      { "value": "other", "label": "Other" }
+    ],
+    "message": "Brief project description",
+    "messageHint": "A few sentences are enough. We will ask for details later.",
+    "consentBefore": "I agree to the processing of my personal data as described in the",
+    "consentLink": "Privacy Policy",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "errors": {
+      "required": "Please fill in this field.",
+      "email": "Please enter a valid email address, e.g. name@company.com.",
+      "tooShort": "Please add a little more detail (at least 10 characters).",
+      "tooLong": "This text is too long.",
+      "consent": "Please confirm that you agree to the Privacy Policy.",
+      "summary": "Please check the highlighted fields.",
+      "server": "We could not send your request. Please try again in a moment or write to us by email.",
+      "rateLimit": "Too many requests from your network. Please try again later or write to us by email."
+    },
+    "successTitle": "Thank you — your request has been received",
+    "successText": "Our team will review it and reply to the email you provided. We usually respond within two business days.",
+    "successAgain": "Send another request",
+    "demoNote": "Demo preview: the form was validated, but no data was sent."
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "Software development for financial and payment infrastructure",
+        "description": "We design and build mobile applications, web platforms, personal accounts, bots, back-office systems and API integrations for financial services and digital-first businesses."
+      },
+      "hero": {
+        "eyebrow": "Software partner for financial infrastructure",
+        "title": "We build secure digital platforms, applications and integrations for financial services.",
+        "lead": "From product discovery to launch and support — one engineering partner for mobile apps, web platforms, personal accounts, bots, back-office systems and APIs.",
+        "secondary": "Explore our expertise"
+      },
+      "trust": {
+        "title": "Why teams choose to work with us",
+        "items": [
+          { "icon": "globe", "title": "International delivery", "text": "Distributed teams used to working across time zones and stakeholder groups." },
+          { "icon": "cycle", "title": "Full development cycle", "text": "Analysis, UX, architecture, engineering, QA and support in one team." },
+          { "icon": "api", "title": "Complex integrations", "text": "External providers and internal systems connected into one reliable flow." },
+          { "icon": "support", "title": "Support after launch", "text": "Monitoring, fixes and new features once the product is live." }
+        ]
+      },
+      "directions": {
+        "eyebrow": "What we build",
+        "title": "Development directions",
+        "lead": "Each direction can be a standalone project or part of a larger platform. We combine them around your task.",
+        "items": [
+          { "icon": "mobile", "title": "Mobile applications", "text": "Native and cross-platform apps with secure sign-in, notifications and protected user flows.", "anchor": "mobile-development" },
+          { "icon": "web", "title": "Web platforms and portals", "text": "Customer-facing and corporate web platforms built to grow with your business.", "anchor": "web-platforms" },
+          { "icon": "user", "title": "Personal accounts", "text": "Accounts for users, partners, agents and corporate clients: profile, operations, reports.", "anchor": "web-platforms" },
+          { "icon": "chat", "title": "Chatbots", "text": "Service scenarios, notifications and support flows connected to your web app and systems.", "anchor": "bots" },
+          { "icon": "admin", "title": "Admin panels and back-office", "text": "Tools for managing users, roles, operations, limits, statuses and requests.", "anchor": "back-office" },
+          { "icon": "api", "title": "API and system integrations", "text": "Integration layers for processing, KYC/KYB, CRM, notifications and analytics.", "anchor": "integrations" }
+        ]
+      },
+      "tasks": {
+        "eyebrow": "Business tasks",
+        "title": "What we help you do",
+        "items": [
+          { "title": "Launch a new digital service", "text": "Go from an idea and a set of requirements to a working product with a clear release plan." },
+          { "title": "Modernise an existing system", "text": "Move legacy interfaces and services to a maintainable architecture without stopping operations." },
+          { "title": "Automate manual operations", "text": "Replace spreadsheets, email chains and manual checks with controlled, traceable workflows." },
+          { "title": "Create client and partner interfaces", "text": "Give customers, partners and agents a clear place to work with their data and operations." },
+          { "title": "Connect disconnected systems", "text": "Build an integration layer so providers and internal systems exchange data reliably." }
+        ]
+      },
+      "industries": {
+        "eyebrow": "Industry focus",
+        "title": "Payments and fintech at the core. Open to any digital-first business.",
+        "text": "Our key expertise is software for payment and financial organisations: transactional user journeys, personal accounts, onboarding and back-office tools. The same engineering approach works for other businesses with complex digital operations.",
+        "points": [
+          "Payment and fintech companies",
+          "Processing and infrastructure providers",
+          "Programme managers and service operators",
+          "Digital-first businesses with complex operations"
+        ],
+        "note": "We are a software development company. We build technology for our clients and do not provide financial services ourselves.",
+        "link": "See use cases"
+      },
+      "process": {
+        "eyebrow": "Process",
+        "title": "How a project moves",
+        "link": "More about how we work"
+      },
+      "cases": {
+        "eyebrow": "Case studies",
+        "title": "Selected work",
+        "lead": "Client names are published only with permission. Other cases are anonymised but keep the structure needed to judge the complexity of the work."
+      },
+      "principles": {
+        "eyebrow": "Principles",
+        "title": "How we keep projects under control"
+      },
+      "finalCta": {
+        "title": "Have a task in mind? Let’s discuss it.",
+        "text": "Tell us briefly what you want to build or improve. We will reply with questions or a proposal for the next step."
+      }
+    },
+    "expertise": {
+      "seo": {
+        "title": "Expertise and services",
+        "description": "Product discovery, UX and UI design, mobile and web development, bots, back-office systems, API integrations, QA and support — combined around your project."
+      },
+      "hero": {
+        "eyebrow": "Expertise",
+        "title": "Competencies that combine into the product you need",
+        "lead": "We do not sell boxed products. We bring a set of competencies — from discovery to long-term support — and assemble them around your project and your existing systems."
+      },
+      "listTitle": "What we do",
+      "items": [
+        { "id": "discovery", "icon": "search", "title": "Product discovery and business analysis", "text": "We clarify the task before anything is built, so scope and priorities are clear to everyone.", "points": ["Research of the task and constraints", "Requirements and user roles", "User scenarios and edge cases", "Prototyping", "Prioritised backlog"] },
+        { "id": "ux-ui", "icon": "design", "title": "UX and UI design", "text": "Interfaces that make complex operations understandable for every type of user.", "points": ["Information architecture", "Customer journeys", "Design system", "Responsive layouts", "Accessibility"] },
+        { "id": "mobile-development", "icon": "mobile", "title": "Mobile development", "text": "Mobile applications for customers, partners and field teams.", "points": ["Native or cross-platform apps", "Authentication and sessions", "Push notifications", "Secure user scenarios"] },
+        { "id": "web-platforms", "icon": "web", "title": "Web platforms and personal accounts", "text": "Client, partner and corporate accounts where users manage their data and operations.", "points": ["Client and partner accounts", "Corporate dashboards", "Profile management", "Operations and reporting"] },
+        { "id": "bots", "icon": "chat", "title": "Bots and conversational interfaces", "text": "Conversational entry points that solve routine tasks and hand over to the right place.", "points": ["Service scenarios", "Notifications", "Support flows", "Hand-off to web apps and external systems"] },
+        { "id": "back-office", "icon": "admin", "title": "Back-office and admin systems", "text": "Internal tools that give operations teams control and traceability.", "points": ["Users and roles", "Operations and statuses", "Limits and settings", "Requests and cases", "Reports"] },
+        { "id": "integrations", "icon": "api", "title": "API and integrations", "text": "Integration layers that connect external providers with your internal systems.", "points": ["Processing platforms", "KYC/KYB providers", "CRM systems", "Notification services", "Analytics and other external services"] },
+        { "id": "qa-support", "icon": "shield", "title": "Quality assurance and support", "text": "Testing and operations that keep the product stable after release.", "points": ["Functional testing", "Integration testing", "Load testing", "Monitoring", "Ongoing development and maintenance"] }
+      ],
+      "combine": {
+        "title": "One team, assembled for your task",
+        "text": "A project may need only an integration layer, or a full platform with mobile, web and back-office parts. We select the competencies the task requires and can join your existing team or work as a self-contained unit."
+      }
+    },
+    "industries": {
+      "seo": {
+        "title": "Industries and use cases",
+        "description": "Typical business tasks we solve for payment, fintech and digital-first companies: personal accounts, onboarding, operations management, integrations and legacy modernisation."
+      },
+      "hero": {
+        "eyebrow": "Industries and use cases",
+        "title": "Typical tasks we solve",
+        "lead": "These are scenarios, not boxed products. Each one is designed and built around the client’s processes, users and systems."
+      },
+      "items": [
+        { "icon": "web", "title": "Digital client services", "text": "Customer-facing services for payment and financial organisations, from first contact to everyday use.", "tags": ["Web", "Mobile", "Design system"] },
+        { "icon": "user", "title": "Personal accounts", "text": "Accounts for end users, partners, agents and corporate clients with role-specific views.", "tags": ["Web platform", "Roles", "Reports"] },
+        { "icon": "admin", "title": "Operations management interfaces", "text": "Tools to manage operations, statuses, limits, documents and requests in one place.", "tags": ["Back-office", "Audit trail", "Workflows"] },
+        { "icon": "id", "title": "Onboarding and profile management", "text": "Registration, identification steps and profile management connected to verification providers.", "tags": ["KYC/KYB", "Mobile", "Web"] },
+        { "icon": "flow", "title": "Payment scenarios and history", "text": "Payment user journeys, operation history, notifications and reporting.", "tags": ["UX", "Notifications", "Reports"] },
+        { "icon": "api", "title": "Integration layers", "text": "A controlled layer between external providers and the client’s internal systems.", "tags": ["API", "Processing", "CRM"] },
+        { "icon": "chat", "title": "Support and operations automation", "text": "Bots, request routing and internal tools that reduce manual work for support and operations teams.", "tags": ["Bots", "Back-office", "Automation"] },
+        { "icon": "layers", "title": "Legacy modernisation", "text": "Step-by-step migration of outdated interfaces and services to a new architecture.", "tags": ["Architecture", "Migration", "QA"] }
+      ],
+      "beyond": {
+        "title": "Beyond payments and fintech",
+        "text": "Personal accounts, back-office tools and integration layers are needed wherever a business runs complex digital operations. If your task is similar in nature, we are open to discussing it."
+      },
+      "note": "We build software for our clients. We do not issue payment instruments, hold client funds or provide regulated financial services."
+    },
+    "howWeWork": {
+      "seo": {
+        "title": "How we work",
+        "description": "Our delivery process from discovery to support, team roles, quality control and cooperation formats: dedicated team, project-based development, team extension and long-term support."
+      },
+      "hero": {
+        "eyebrow": "How we work",
+        "title": "A clear process with visible results at every stage",
+        "lead": "Each stage ends with a concrete result you can review. You always know what is being done, by whom and what comes next."
+      },
+      "stagesTitle": "Stages and their results",
+      "stages": [
+        { "title": "Discovery", "short": "Discovery and analysis", "result": ["Goals and constraints", "User roles", "Functional scope", "Preliminary estimate"] },
+        { "title": "UX and architecture", "short": "UX and architecture", "result": ["User flows and prototypes", "System architecture", "Integration scheme", "Release plan"] },
+        { "title": "Design and development", "short": "Development", "result": ["Design system and interfaces", "Frontend and backend", "Mobile apps", "Integrations"] },
+        { "title": "Testing and launch", "short": "Testing and launch", "result": ["QA and integration checks", "Environment setup", "Documentation", "Release"] },
+        { "title": "Support and growth", "short": "Support and growth", "result": ["Monitoring and fixes", "Analytics", "New features", "Scaling"] }
+      ],
+      "rolesTitle": "Who is on the team",
+      "rolesLead": "The team composition depends on the task. These are the roles we usually involve.",
+      "roles": ["Project / delivery manager", "Business analyst", "UX/UI designer", "Solution architect", "Frontend engineer", "Backend engineer", "Mobile engineer", "QA engineer", "DevOps engineer"],
+      "controlTitle": "How you stay in control",
+      "control": [
+        { "icon": "eye", "title": "Transparent delivery", "text": "Shared backlog, regular demos and progress reports in a format agreed at the start." },
+        { "icon": "doc", "title": "Documentation", "text": "Architecture, integrations and key decisions are documented as the project goes." },
+        { "icon": "shield", "title": "Security by design", "text": "Access control, data protection and secure development practices from the first sprint." },
+        { "icon": "check", "title": "Quality gates", "text": "Code review, automated and manual testing before every release." }
+      ],
+      "formatsTitle": "Cooperation formats",
+      "formats": [
+        { "icon": "team", "title": "Dedicated team", "text": "A cross-functional team that works on your product long term." },
+        { "icon": "target", "title": "Project-based development", "text": "A defined scope delivered as a project with agreed stages." },
+        { "icon": "plus", "title": "Team extension", "text": "Our engineers strengthen your in-house team in specific areas." },
+        { "icon": "support", "title": "Long-term support", "text": "Maintenance, monitoring and development of a product after launch." }
+      ]
+    },
+    "cases": {
+      "seo": {
+        "title": "Case studies",
+        "description": "Examples of our work on personal accounts, mobile applications, back-office systems and integrations. Cases are anonymised unless publication is approved by the client."
+      },
+      "hero": {
+        "eyebrow": "Case studies",
+        "title": "Our work, described by task and result",
+        "lead": "Every case follows the same structure, so you can judge the complexity of the work even when the client cannot be named."
+      },
+      "structureTitle": "What each case covers",
+      "sections": {
+        "context": "Context and type of client",
+        "challenge": "Business task",
+        "constraints": "Constraints and integrations",
+        "work": "What the team did",
+        "solution": "Solution and key interfaces",
+        "result": "Result",
+        "tech": "Technologies"
+      }
+    },
+    "about": {
+      "seo": {
+        "title": "About the company",
+        "description": "A software development company that makes complex digital processes clear, reliable and manageable. Our mission, principles and team."
+      },
+      "hero": {
+        "eyebrow": "About us",
+        "title": "We make complex digital processes clear, reliable and manageable",
+        "lead": "We are an international software development team building platforms, interfaces and integrations for financial organisations and other digital-first businesses."
+      },
+      "storyTitle": "Who we are",
+      "story": [
+        "[Short company history — to be provided and approved by the company.]",
+        "We work at the intersection of business processes, payment infrastructure and user experience. Our teams take a task from analysis to launch and stay with the product as it grows."
+      ],
+      "missionTitle": "Mission",
+      "mission": "To make complex digital processes clear, reliable and manageable — for the people who use them and for the businesses that run them.",
+      "principlesTitle": "Principles",
+      "principles": [
+        { "icon": "target", "title": "Responsibility for the result", "text": "We are accountable for working software, not just for completed tasks." },
+        { "icon": "chat", "title": "Transparent communication", "text": "Clear status, honest estimates and early warnings about risks." },
+        { "icon": "shield", "title": "Security", "text": "Data protection and access control are part of every decision." },
+        { "icon": "doc", "title": "Documentation", "text": "Knowledge stays with the product, not with individual people." },
+        { "icon": "cycle", "title": "Development after launch", "text": "We plan for the product’s next stages, not only the first release." }
+      ],
+      "geographyTitle": "Geography",
+      "geography": "[Team and client geography — confirmed wording to be provided by the company.]",
+      "teamTitle": "Team competencies",
+      "teamLead": "Our team combines product, design, engineering and quality roles.",
+      "team": [
+        { "title": "Product and analysis", "text": "Business analysts and delivery managers who turn requirements into a clear plan." },
+        { "title": "Design", "text": "UX/UI designers experienced with transactional and operational interfaces." },
+        { "title": "Engineering", "text": "Architects, backend, frontend and mobile engineers." },
+        { "title": "Quality and operations", "text": "QA and DevOps engineers responsible for stable releases and environments." }
+      ],
+      "careers": {
+        "title": "Careers",
+        "text": "We are always interested in meeting engineers, designers and analysts who enjoy complex products.",
+        "link": "Write to us"
+      }
+    },
+    "insights": {
+      "seo": {
+        "title": "Insights",
+        "description": "Articles on UX, architecture, integrations, security and software development for financial and digital-first services."
+      },
+      "hero": {
+        "eyebrow": "Insights",
+        "title": "Notes on building complex digital services",
+        "lead": "Practical articles on UX, architecture, integrations, security and delivery."
+      }
+    },
+    "contact": {
+      "seo": {
+        "title": "Contact us — discuss a project",
+        "description": "Tell us about your project: a new digital service, an integration, support of an existing system or a partnership."
+      },
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "Let’s discuss your project",
+        "lead": "A short description is enough to start. We will ask for details after the first conversation."
+      },
+      "nextTitle": "What happens next",
+      "next": [
+        "We review your request and may ask a few clarifying questions.",
+        "We arrange a call to discuss the task, constraints and timeline.",
+        "We suggest the next step: a discovery phase, an estimate or a proposal."
+      ],
+      "detailsTitle": "Company details",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "legalLabel": "Legal name",
+      "registrationLabel": "Registration",
+      "addressLabel": "Address"
+    },
+    "thankYou": {
+      "seo": { "title": "Request received", "description": "Thank you for your request." },
+      "title": "Thank you — your request has been received",
+      "text": "Our team will review it and reply to the email you provided. We usually respond within two business days.",
+      "back": "Back to the home page"
+    },
+    "notFound": {
+      "seo": { "title": "Page not found", "description": "The page you are looking for does not exist." },
+      "title": "Page not found",
+      "text": "The page may have been moved or no longer exists.",
+      "back": "Go to the home page"
+    },
+    "legal": {
+      "updated": "Last updated",
+      "draftNote": "Draft structure. The final text must be provided by the company’s legal advisers and depend on the analytics, CRM and data processing actually used.",
+      "pages": [
+        {
+          "route": "/privacy-policy/",
+          "title": "Privacy Policy",
+          "description": "How we collect, use and protect personal data submitted through this website.",
+          "sections": [
+            { "title": "Who we are", "text": "[Legal entity name, registration details and contact for data protection questions.]" },
+            { "title": "What data we collect", "text": "When you send a request through the contact form, we receive your name, work email, company name, optional phone number, request type and project description. With your consent we may also collect anonymised usage statistics." },
+            { "title": "Why we use it", "text": "We use contact data only to reply to your request and to discuss possible cooperation. [Legal basis to be specified.]" },
+            { "title": "How long we keep it", "text": "[Retention period to be specified.]" },
+            { "title": "Who we share it with", "text": "[List of processors, e.g. hosting and CRM providers, to be specified.]" },
+            { "title": "Your rights", "text": "[Data subject rights under the applicable law and how to exercise them.]" }
+          ]
+        },
+        {
+          "route": "/cookie-policy/",
+          "title": "Cookie Policy",
+          "description": "Which cookies this website uses and how to manage them.",
+          "sections": [
+            { "title": "Necessary cookies", "text": "The website stores your cookie choice in your browser so the banner is not shown again. No other data is stored without your consent." },
+            { "title": "Analytics cookies", "text": "[Analytics provider, cookie names and retention — to be specified after the analytics tool is selected.] Analytics is activated only if you accept it in the cookie banner." },
+            { "title": "Managing your choice", "text": "You can change your choice at any time using the “Cookie settings” link in the footer." }
+          ]
+        },
+        {
+          "route": "/terms/",
+          "title": "Terms of Use",
+          "description": "Terms governing the use of this website.",
+          "sections": [
+            { "title": "About this website", "text": "This website provides information about the software development services of [Legal entity name]. The company does not provide payment, banking or other regulated financial services." },
+            { "title": "Content", "text": "[Terms on use of content, intellectual property and liability — to be provided by legal advisers.]" },
+            { "title": "Applicable law", "text": "[Applicable law and jurisdiction.]" }
+          ]
+        }
+      ]
+    }
+  },
+  "process": [
+    { "title": "Discovery and analysis", "text": "Goals, constraints, user roles and scope." },
+    { "title": "UX and architecture", "text": "User flows, prototypes and system design." },
+    { "title": "Development", "text": "Interfaces, backend, mobile and integrations." },
+    { "title": "Testing and launch", "text": "QA, integration checks and release." },
+    { "title": "Support and growth", "text": "Monitoring, improvements and scaling." }
+  ],
+  "principles": [
+    { "icon": "shield", "title": "Security by design", "text": "Access control, data protection and secure practices are built in from the start." },
+    { "icon": "layers", "title": "Scalable architecture", "text": "Systems designed to grow in features, users and load." },
+    { "icon": "eye", "title": "Transparent delivery", "text": "Shared backlog, regular demos and clear reporting." },
+    { "icon": "doc", "title": "Documentation", "text": "Architecture, APIs and decisions documented as we go." },
+    { "icon": "support", "title": "Long-term support", "text": "We stay with the product after launch." }
+  ]
+}

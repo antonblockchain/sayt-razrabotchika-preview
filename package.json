@@ -1,0 +1,15 @@
+{
+  "name": "corporate-software-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Corporate B2B website of a software development company for financial and payment infrastructure",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "dev": "node build.js && node server.js",
+    "build:preview": "node -e \"process.env.SITE_URL='https://antonblockchain.github.io';process.env.BASE_PATH='/sayt-razrabotchika-preview';process.env.DEMO='1';require('./build.js')\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

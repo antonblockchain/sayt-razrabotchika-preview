@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "designing-personal-accounts",
+    "date": "2026-10-01",
+    "minutes": 4,
+    "topic": "UX",
+    "title": "Designing personal accounts for transactional services",
+    "summary": "Why role-based thinking matters more than screens when you design accounts for users, partners and corporate clients.",
+    "body": [
+      "A personal account is rarely a single interface. An end user, a partner and a corporate client may look at the same operation but need very different actions, data and levels of detail.",
+      "We start with roles, not screens. For each role we describe what they need to see, what they are allowed to change and which events they must be notified about. This becomes the basis for both the interface and the permission model.",
+      "Statuses deserve special attention. Users should always understand where an operation is, what happens next and whether anything is expected from them. Clear status language reduces support requests more than any help section.",
+      "Finally, design for growth. New roles, reports and actions will appear after launch. A design system and a consistent navigation model let the account grow without being redesigned every year."
+    ]
+  },
+  {
+    "slug": "integration-layers",
+    "date": "2026-09-15",
+    "minutes": 5,
+    "topic": "Architecture",
+    "title": "Integration layers: keeping external providers replaceable",
+    "summary": "How a dedicated integration layer protects your product from changes in external APIs.",
+    "body": [
+      "Digital financial services depend on external providers: processing, verification, notifications, CRM and analytics. Each has its own API, data model and failure modes.",
+      "When these APIs are called directly from many parts of a product, every provider change becomes a project. A dedicated integration layer translates external models into your own and isolates the rest of the system.",
+      "The layer is also the right place for retries, idempotency, logging and monitoring. Problems with a provider become visible and manageable instead of appearing as unexplained errors in the interface.",
+      "The result is an architecture where adding or replacing a provider is a contained task with a clear scope and test plan."
+    ]
+  },
+  {
+    "slug": "security-by-design-in-delivery",
+    "date": "2026-08-20",
+    "minutes": 4,
+    "topic": "Security",
+    "title": "Security by design in everyday delivery",
+    "summary": "Security is not a final audit. It is a set of habits built into every stage of the project.",
+    "body": [
+      "Security questions appear long before the first line of code: who can access which data, which actions need confirmation, what must be logged and for how long.",
+      "We include these questions in discovery and architecture, so access control and data protection are part of the design rather than added at the end.",
+      "During development, code review, dependency checks and separated environments are part of the routine. Test data never contains real personal information.",
+      "After launch, monitoring and a clear incident process keep the system under control. Security becomes a property of the process, not a single checkpoint."
+    ]
+  }
+]

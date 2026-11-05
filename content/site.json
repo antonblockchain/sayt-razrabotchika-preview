@@ -1,0 +1,27 @@
+{
+  "baseUrl": "https://www.example.com",
+  "defaultLanguage": "en",
+  "languages": [
+    { "code": "en", "label": "English", "short": "EN", "locale": "en_US" }
+  ],
+  "company": {
+    "brandName": "Company Name",
+    "legalName": "[Legal entity name]",
+    "registration": "[Country of registration, company number]",
+    "address": "[Registered address — format to be approved]",
+    "email": "hello@example.com",
+    "phone": "",
+    "channels": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
+    ]
+  },
+  "features": {
+    "insights": true,
+    "careers": false,
+    "consentCheckbox": true
+  },
+  "analytics": {
+    "note": "Events are pushed to window.dataLayer. Connect a tag manager only after cookie consent.",
+    "requireConsent": true
+  }
+}
